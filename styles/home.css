@@ -1,0 +1,217 @@
+:root {
+    --red: #CF0921;
+    --white: #fff;
+    --black:#000;
+    --header-font: "Croissant One", cursive,"Rock Salt";
+    --body-font: Mooli, sans-serif,Arial;
+}
+header {
+    background-color: var(--red);
+    color: var(--white);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: var(--red);
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+nav.active {
+    display: flex;
+}
+
+nav a {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem 0;
+    font-family: var(--header-font);
+    font-weight: bold;
+    color: black;
+    font-size: larger;
+}
+nav a:hover {
+    background-color: var(--white);
+    color: var(--red);
+    text-decoration: underline;
+    transition: .5s;
+}
+#title {
+    font-family: var(--header-font);
+    font-weight: 400;
+    color: var(--white);
+    padding: 1.5rem;
+}
+.ham-button {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    z-index: 1;
+    margin: 1rem;
+}
+
+.ham-button span {
+    top: 50%;
+    height: 5px;
+    width: 100%;
+    background-color: var(--black);
+    margin: 1px;
+    position: absolute;
+    transition: .3s ease;
+
+}
+
+.ham-button span:nth-child(1) {
+    top: 25%;
+}
+
+.ham-button span:nth-child(3) {
+    top: 75%;
+}
+
+.ham-button.active span:nth-child(1) {
+    top: 50%;
+    transform: rotate(45deg);
+}
+
+.ham-button.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.ham-button.active span:nth-child(3) {
+    top: 50%;
+    transform: rotate(-45deg);
+}
+
+
+.home-grid{
+    display: grid;
+    grid-template-columns: 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr;
+    grid-template-rows: 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr;
+    color: var(--black);
+    font-family: var(--body-font);
+
+}
+
+#title {
+    font-family: var(--header-font);
+    font-weight: 400;
+    color: var(--white);
+    padding: 1rem;
+    text-align: left;
+}
+h2{
+    grid-column: 1/1;
+    grid-row: 1/1;
+    font-family: var(--header-font);
+    color: var(--red);
+}
+h3{
+    background-color: var(--red);
+    color: var(--white);
+    text-align: center;
+    padding: 10px;
+    
+    
+}
+.course-work{
+    grid-column: 1/6;
+    grid-row: 2/4;
+    border-style: solid;
+    border-color: var(--red);
+    box-shadow: 5px 5px 10px var(--black);
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.course-work,h3{
+    margin-top: 0;
+}
+h6{
+    background-color: var(--red);
+    color: var(--white);
+    text-align: center;
+    padding: 15px;
+    font-size: medium;
+    grid-column: 1/11;
+    grid-row: 1/2;
+}
+.flag-card{
+    grid-column: 8/11;
+    grid-row: 2/4;
+    box-shadow: var(--red);
+    text-align: center;
+    border-style: solid;
+    border-color: var(--red);
+    box-shadow: 5px 5px 10px var(--black);
+
+}
+.flag-card,h6{
+    margin-top: 0;
+}
+#filter-box{
+    grid-column: 1/11;
+    grid-row: 5/10;
+    box-shadow: var(--red);
+    color: var(--red);
+    background-color: var(--black);
+    font-size: large;
+    padding: 50px;
+}
+.course-list{
+
+    grid-column: 1/11;
+    grid-row: 5/10;
+    box-shadow: var(--red);
+    color: var(--red);
+    background-color: var(--white);
+    border-style: solid;
+    border-color: var(--red);
+    box-shadow: 5px 5px 10px var(--black);
+    
+}
+h5{
+    background-color: var(--red);
+    color: var(--white);
+    text-align: center;
+    padding: 15px;
+    font-size: medium;
+    
+}
+#filter-box,h5,.course-list{
+    margin-top: 0;
+}
+#course-type{
+    color: var(--red);
+    text-align: center;
+    min-width: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: 30px solid var(--red);
+    box-shadow: 5px 10px var(--black);
+    margin-bottom: 100px;
+    font-family: var(--header-font);
+
+}
+
+
+footer {
+    background-color: var(--red);
+    color: white;
+    padding: 1rem;
+    font-family: var(--header-font);
+    text-align: center;
+    font-size: larger;
+}

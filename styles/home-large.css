@@ -1,0 +1,45 @@
+@media screen and (min-width: 600px) {
+    .home-grid {
+        display: grid;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-height: fit-content;
+    }
+    #filter-box {
+        display: grid;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-family: var(--body-font);
+    }
+    figure {
+        margin: 1rem;
+    }
+    
+}
+
+@media screen and (min-width: 900px) {
+    .ham-button {
+        display: none;
+      
+    }
+
+    nav {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        width: 500px;
+        justify-content: space-around;
+    }
+
+    nav a {
+        color: var(--black);
+    }
+
+    nav a:hover{
+        background-color: var(--white);
+        color: var(--red);
+        padding: 25px;
+        text-decoration: underline;
+     }
+     
+}
