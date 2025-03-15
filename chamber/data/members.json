@@ -1,0 +1,62 @@
+{
+    "businesses":[
+    {
+        "name":"Pint and Pigout",
+        "address": "26 Victoria Rd, Pioneer Park, Newcastle, 2940",
+        "Phone": "+27 34 315 2468",
+        "membership":"bronze",
+        "imageURL": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB-mPU7rLS-3whD8CX6nz-0-iwjkDh4s7BXYpSXmMCd2zuGl1Og2OW0ncfeUA304HCP-wKPYu1HFEGj7wdvAn6vpQ0QBn2t_yEdud59JrYfjSN-ktaBiirlHk84cwcsVr2Kv-eeH=s680-w680-h510",
+        "link":"https://www.tripadvisor.co.za/Restaurant_Review-g1883603-d10390349-Reviews-Pint_and_Pigout_Restaurant-Newcastle_KwaZulu_Natal.html"
+    },
+    {
+        "name":"Tramonto Boutique Restaurant",
+        "address": "Signal Hill, Newcastle, 2940",
+        "Phone": "+27 34 318 1048",
+        "membership":"silver",
+        "imageURL": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB9_qWP_1iXIEoqzGswUC2TLkr15za7oQyKSityzeAnwXDazy04DtqSXG-4fbILPUlYh4SgiMv-oP8wNH5xnVWJcnoYnf6AT0n9Zmn834pKUI3H_IjydZtd-Ao9bFN9XuScA7K0=s680-w680-h510",
+        "link":"https://www.tramonto.co.za/restaurant/"
+    },
+    {
+        "name":"Ocean Basket Newcastle",
+        "address": "Newcastle Corner, Memel Rd, Hutten Heights, Newcastle, 2956",
+        "Phone": "+27 34 312 2056",
+        "membership":"gold",
+        "imageURL": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB-T33qDOGNy99ACiuzwLgAo2Z6a1AbgFm6q2K3luB2r8Cab8ayQbctbQMAf_NtBp3mAAsJUIMMJ1zat1rFs-VFvvAxFomlid876dmOL5tahr_7agE0VGKbWQ5wuwiaVf45HHPT3Gg=s680-w680-h510",
+        "link":"https://oceanbasket.co.za/?utm_source=google_maps&utm_medium=website_button&utm_campaign=SP&utm_content=SP"
+    },
+    {
+        "name":"Blackrock Casino",
+        "address": "100 Allen St, Newcastle Central, Newcastle, 2940",
+        "Phone": "+27 34 328 1777",
+        "membership":"gold",
+        "imageURL": "https://lh3.googleusercontent.com/p/AF1QipMTGt8u7c9vTlCaelhtJZJrx9ZlMG4r0wKhgnTN=s680-w680-h510",
+        "link":"https://www.blackrockcasino.co.za/"
+    },
+    {
+        "name":"Lanai",
+        "address": "77 Kirkland St, Paradise, Newcastle, 2940",
+        "Phone": "+27 34 312 7677",
+        "membership":"bronze",
+        "imageURL": "https://lh3.googleusercontent.com/p/AF1QipO6D5EWp_fDO67_WUt7cSkANZA5syqUkMQTO7WB=s680-w680-h510",
+        "link":"https://instagram.com/lanaisouthafrica?utm_medium=copy_link"
+    },
+    {
+        "name":"Eagle Peak Spur",
+        "address": "Shop 36, Amajuba Mall, Victoria Rd, Hutten Heights, Newcastle, 2940",
+        "Phone": "+27 34 312 4313",
+        "membership":"gold",
+        "imageURL": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB-8y0KcX7HTuiwYMK7y6XqBayC8mgbH08ORdXlhmfXQ5XVwKG8U0RjI6rH3paUg0eTV7juJ8z7PHPdTEI1-5EEupa0hSjR95ypeUS2oCz9GGpOxC3rSXWMjshubivGAKTXdpk4W=s680-w680-h510",
+        "link":"https://www.spursteakranches.com/za/restaurant/eagle-peak-spur?utm_source=google_maps&utm_medium=website_button&utm_campaign=SP&utm_content=SP"
+    },
+    {
+        "name":"RocoMamas Newcastle",
+        "address": "R34 Shop 1, Newcastle Corner, Hutten Heights, Newcastle, 2956",
+        "Phone": "+27 34 331 9000",
+        "membership":"silver",
+        "imageURL": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB9KJfb1Bv23uakmsVUdGjQCACq3x-Vol82k5cKinkLBmrUlxEsoLQT2Nd9e5zANpnQPOOkkBrl48RNYjoI7T7AL9A_NrT2m30MevYVCPfUK_Z3kQuAUAAqKsbm8Q6HaLwiIGcf8=s680-w680-h510",
+        "link":"https://rocomamas.com/za/restaurants/kwazulu-natal/rocomamas-newcastle?utm_source=google_maps&utm_medium=website_button&utm_campaign=SP&utm_content=SP"
+    }
+    
+    ]
+
+}
