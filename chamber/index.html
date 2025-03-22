@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="og:title" content="Chamber Directory Page">
+    <meta name="description" content="Newcastle Chamber of Commerce - Home Page">
     <meta name="author" content="Sabelo K. Mpungose">
-    <meta name="og:description" content="Week 2:Newcastle Chamber of Commerce Directory Page">
-    <meta name="og:image" content="images/Newcastle_City_Hall_2015_100KB.jpg" >
-    <meta name="og:url" content="https://sblkmpngs.github.io/wdd231/chamber/directory.html">
-    <meta name="og:type" content="website">
-    <title>WDD 231 - Directory Page</title>
+    <meta property="og:title" content="Newcastle Chamber of Commerce - Home Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://sblkmpngs.github.io/wdd231/chamber/images/Newcastle_Chamber_of_Commerce_Logo_100x100.png">
+    <meta property="og:url" content="https://sblkmpngs.github.io/wdd231/chamber/index.html">
+    <meta property="og:description" content="Learn about the wonderful restaurants in Newcastle">
+    <meta name="twitter:card" content="Discover Newcastle, KwaZulu-Natal">
+    <meta name="twitter:site" content="@seuTwitter">
+    <meta name="twitter:title" content="Discover Newcastle, KwaZulu-Natal">
+    <meta name="twitter:description" content="Newcastle Chamber of Commerce - Home Page">
+    <meta name="twitter:image" content="https://sblkmpngs.github.io/wdd231/chamber/images/Newcastle_Chamber_of_Commerce_Logo_100x100.png">
+    <meta name="twitter:url" content="https://sblkmpngs.github.io/wdd231/chamber/index.html">
+    <title>Newcastle Chamber of Commerce - Home</title>
     <link rel="stylesheet" href="styles/chamber.css">
     <link rel="stylesheet" href="styles/chamber-large.css">
+    <script src="scripts/homepage.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="icon" href="images/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Mooli&display=swap" rel="stylesheet">
-    <script src="scripts/directory.js" defer></script>
-</head>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="favicon.ico">
+  </head>
 <body>
     <header id="header-content">
         <a id="logo-link" href="index.html">
             <img class="logo" src="images/Newcastle_Chamber_of_Commerce_Logo_100x100.png" alt="Newcastle Chamber of Commerce">
         </a>
-            <span id ="title">Newcastle Chamber of Commerce</span>
+            <span id="title">Newcastle Chamber of Commerce</span>
 
         <div class="ham-button">
             <span></span>
@@ -36,17 +44,26 @@
             <a href="">Join</a>
             <a href="">Discovery</a>
         </nav>
-
     </header>
     <div id="hero">
         <img id="hero-img" src="images/Newcastle_City_Hall_2015_100KB.jpg" alt="Newcastle">
-        <aside class="cta">Join Now!</aside>
+        <a href="join.html" class="cta-button">Join Us</a>
     </div>
     <main class="home-grid">
         <h1>Home</h1>
         <section class="events">
             <h2>Events</h2>
-            
+            <ul>
+                <li><a href="https://allevents.in/newcastle/human-rights-everyday-people/200027886385651" target="_blank" rel="noopener noreferrer">Human Rights Day festival</a></li>
+                <li><a href="https://allevents.in/newcastle/chris-steyn-in-newcastle/3300027919344734" target="_blank" rel="noopener noreferrer">Chris Steyn in Newcastle</a></li>
+                <li><a href="https://allevents.in/newcastle/balele-rally-2025/200027712835623" target="_blank" rel="noopener noreferrer">Balele Rally</a></li>
+            </ul>
+        
+            <a href="https://allevents.in/newcastle-za" target="_blank" rel="noopener noreferrer">More Upcoming Events...</a>
+        </section>
+        
+        <section class="events">
+            <h2>Events</h2>
         </section>
         <section class="current-weather">
             <h3>Current Weather</h3>
@@ -58,15 +75,8 @@
         </section>
         <section class="business-card">
             <h5>Businesses</h5>
-            <div class="menu">
-                    <button id="grid-view">⏹️Grid</button>
-                    <button id="list-view">📄List</button>
-            </div>
-            
             <div id="businesses-container"></div>
         </section>
-        
-
     </main>
     <footer>
         <div class="footer-container">
@@ -79,18 +89,15 @@
             <p>
                 Website: <a href="https://www.newcastle.gov.za" target="_blank" rel="noopener">www.newcastle.gov.za</a>
               </p>
-              
               <div class="social">
                 <a href="https://facebook.com" target="_blank" rel="noopener">
                   <img src="images/facebook.webp" alt="fb icon">
                 </a>
-              
                 <a href="https://twitter.com" target="_blank" rel="noopener">
                   <img src="images/xlogo.jfif" alt="twitter icon">
                 </a>
-              
                 <a href="https://youtube.com" target="_blank" rel="noopener">
-                  <img src="images/youtube.webp" alt="youtube icon">                                                                                 `
+                  <img src="images/youtube.webp" alt="youtube icon">                                                                                 
                 </a>
               </div>
             </div>
@@ -100,9 +107,6 @@
             <p>&copy; <span id="currentyear"></span> Sabelo K. Mpungose - Newcastle, South Africa</p>
             <p id="lastModified"></p>
         </div>
-      </footer>
-      
-      
-    
+    </footer>
 </body>
 </html>
