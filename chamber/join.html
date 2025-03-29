@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Newcastle Chamber of Commerce - Join Page">
+    <meta name="author" content="Sabelo K. Mpungose">
+    <meta property="og:title" content="Newcastle Chamber of Commerce - Join Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://sblkmpngs.github.io/wdd231/chamber/images/Newcastle_Chamber_of_Commerce_Logo_100x100.png">
+    <meta property="og:url" content="https://sblkmpngs.github.io/wdd231/chamber/join.html">
+    <meta property="og:description" content="join the wonderful restaurants in Newcastle">
+    <meta name="twitter:card" content="Discover Newcastle, KwaZulu-Natal">
+    <meta name="twitter:site" content="@seuTwitter">
+    <meta name="twitter:title" content="Discover Newcastle, KwaZulu-Natal">
+    <meta name="twitter:description" content="Newcastle Chamber of Commerce - Home Page">
+    <meta name="twitter:image" content="https://sblkmpngs.github.io/wdd231/chamber/images/Newcastle_Chamber_of_Commerce_Logo_100x100.png">
+    <meta name="twitter:url" content="https://sblkmpngs.github.io/wdd231/chamber/join.html">
+    <title>Newcastle Chamber of Commerce - Join</title>
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/chamber-large.css">
+    <script src="scripts/join.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Mooli&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="favicon.ico">
+  </head>
+<body>
+    <header id="header-content">
+        <a id="logo-link" href="index.html">
+            <img class="logo" src="images/Newcastle_Chamber_of_Commerce_Logo_100x100.png" alt="Newcastle Chamber of Commerce">
+        </a>
+        <span id="title">Newcastle Chamber of Commerce</span>
+
+        <div class="ham-button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>
+            <a href="">Discovery</a>
+        </nav>
+    </header>
+    <main>
+        <div class="membership-container">
+            <form action="thankyou.html" method="get">
+                <h1>Membership Application Form</h1>
+                
+                <label>First Name:
+                    <input type="text" name="first_name" required autocomplete="given-name" placeholder="John" title="Enter your first name">
+                </label>
+    
+                <label>Last Name:
+                    <input type="text" name="last_name" required autocomplete="family-name" placeholder="Doe" title="Enter your last name">
+                </label>
+    
+                <label>Title:
+                    <input type="text" name="title" autocomplete="organization-title" pattern="[A-Za-z\-\s]{7,}" placeholder="Manager" title="Enter your title (only letters, hyphens, spaces, min 7 characters)">
+                </label>
+    
+                <label>Email:
+                    <input type="email" name="email" required autocomplete="email" placeholder="example@email.com" title="Enter your email">
+                </label>
+    
+                <label>Mobile Phone:
+                    <input type="tel" name="phone" required autocomplete="tel" placeholder="987-555-1234" title="Enter your mobile phone number">
+                </label>
+    
+                <label>Organization Name:
+                    <input type="text" name="organization" required autocomplete="organization" placeholder="Your Business" title="Enter your organization's name">
+                </label>
+    
+                <label>Membership Level:
+                    <select name="membership">
+                        <option value="np">Non-Profit Membership (Free)</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+                </label>
+    
+                <label>Business Description:
+                    <textarea name="description" title="Describe your business"></textarea>
+                </label>
+    
+                <input type="hidden" name="timestamp" id="timestamp">
+    
+                <input type="submit" value="Apply for Membership">
+            </form>
+    
+            <section class="membership-cards">
+                <div class="card" id="np-card">
+                    <h3>Non-Profit Membership</h3>
+                    <button onclick="openModal('np')">Learn More</button>
+                </div>
+                <div class="card" id="bronze-card">
+                    <h3>Bronze Membership</h3>
+                    <button onclick="openModal('bronze')">Learn More</button>
+                </div>
+                <div class="card" id="silver-card">
+                    <h3>Silver Membership</h3>
+                    <button onclick="openModal('silver')">Learn More</button>
+                </div>
+                <div class="card" id="gold-card">
+                    <h3>Gold Membership</h3>
+                    <button onclick="openModal('gold')">Learn More</button>
+                </div>
+            </section>
+        </div>
+    </main>
+      
+    <footer>
+        <p>&copy;<span id="currentyear"></span> Sabelo K. Mpungose - Newcastle, South Africa</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
+
+
+
+    

@@ -3,16 +3,11 @@
         display: grid;
         flex-wrap: wrap;
         justify-content: space-around;
-        max-height: fit-content;
     }
     #filter-box {
         display: grid;
         flex-wrap: wrap;
         justify-content: space-around;
-        font-family: var(--body-font);
-    }
-    figure {
-        margin: 1rem;
     }
     
 }
@@ -43,20 +38,11 @@
      }
      
 }
-@media (max-width: 1024px) {
-    .grid-view .business {
-      width: calc(50% - 20px); 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
     }
-  }
-
-  @media (max-width: 768px) {
-    .grid-view .business {
-      width: calc(100% - 20px); 
+    to {
+        opacity: 1;
     }
-  }
-  @media (min-width: 768px) {
-    .footer-bottom {
-      text-align: right;
-    }
-  }
-  
+}

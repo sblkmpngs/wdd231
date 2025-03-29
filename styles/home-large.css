@@ -3,16 +3,11 @@
         display: grid;
         flex-wrap: wrap;
         justify-content: space-around;
-        max-height: fit-content;
     }
     #filter-box {
         display: grid;
         flex-wrap: wrap;
         justify-content: space-around;
-        font-family: var(--body-font);
-    }
-    figure {
-        margin: 1rem;
     }
     
 }
@@ -41,5 +36,6 @@
         padding: 25px;
         text-decoration: underline;
      }
+     
      
 }
