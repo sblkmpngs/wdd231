@@ -1,0 +1,34 @@
+:root {
+    --red: #CF0921;
+    --white: #fff;
+    --black:#000;
+    --header-font: "Croissant One", cursive,"Rock Salt";
+    --body-font: Mooli, sans-serif,Arial;
+}
+header {
+    background-color: var(--red);
+    color: var(--white);
+    font-family: var(--header-font);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body {
+    font-family: var(--body-font);
+    background-color: #f4f4f4;
+    color: var(--black);
+}
+h1,h2,h3,h4,h5,h6 {
+    background-color: var(--red);
+    color: var(--white);
+    text-align: center;
+    padding: 10px;
+}
+footer {
+    background-color: var(--red);
+    color: white;
+    padding: 1rem;
+    font-family: var(--header-font);
+    text-align: center;
+}
