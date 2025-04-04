@@ -46,3 +46,18 @@
         opacity: 1;
     }
 }
+@media (min-width: 641px) {
+    .discover-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .card img:hover {
+      transform: scale(1.05);
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .discover-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }

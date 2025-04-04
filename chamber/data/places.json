@@ -1,0 +1,52 @@
+[
+    {
+      "title": "Fort Amiel Museum",
+      "imageUrl": "images/scenery_1.webp",
+      "address": "45 Fort Road, Newcastle 2940",
+      "description": "A restored military fort and museum offering insight into British colonial history and the Anglo-Zulu War."
+    },
+    {
+      "title": "Blackrock Casino",
+      "imageUrl": "images/scenery_2.webp",
+      "address": "100 Allen Street, Newcastle 2940",
+      "description": "Enjoy gaming, entertainment, and fine dining at Newcastle’s popular Blackrock Casino complex."
+    },
+    {
+      "title": "Newcastle Mall",
+      "imageUrl": "images/scenery_3.webp",
+      "address": "Memel Road, Newcastle 2940",
+      "description": "The premier shopping destination in the region, featuring local and international retail stores, restaurants, and a cinema."
+    },
+    {
+      "title": "Ncandu Falls",
+      "imageUrl": "images/scenery_4.webp",
+      "address": "Ncandu Nature Reserve, Newcastle 2940",
+      "description": "A scenic natural waterfall located within a tranquil nature reserve, perfect for hiking and picnicking."
+    },
+    {
+      "title": "Newcastle Golf Club",
+      "imageUrl": "images/scenery_5.webp",
+      "address": "Barry Hertzog Park, Newcastle 2940",
+      "description": "A lush and well-maintained 18-hole golf course with mountain views and a welcoming clubhouse."
+    },
+    {
+      "title": "Amajuba Mall",
+      "imageUrl": "images/scenery_6.webp",
+      "address": "Scott Street, Newcastle Central 2940",
+      "description": "A bustling shopping hub in the heart of the city, home to popular brands and local vendors alike."
+    },
+    {
+      "title": "Drakensberg Mountains Viewpoint",
+      "imageUrl": "images/scenery_7.webp",
+      "address": "Off R34 near Newcastle",
+      "description": "A panoramic viewpoint offering stunning vistas of the distant Drakensberg mountain range."
+    },
+    {
+      "title": "Newcastle Civic Centre",
+      "imageUrl": "images/scenery_8.webp",
+      "address": "38 Murchison Street, Newcastle 2940",
+      "description": "A local government building known for its distinctive architecture and civic importance."
+    }
+  ]
+  
+  
