@@ -1,0 +1,132 @@
+[
+    {
+      "name": "Blackrock Casino",
+      "address": "100 Allen St, Newcastle Central, Newcastle, 2940, South Africa",
+      "phone": "+27 34 328 1777",
+      "rating": 4.0,
+      "imageURL": "https://lh3.googleusercontent.com/p/AF1QipMTGt8u7c9vTlCaelhtJZJrx9ZlMG4r0wKhgnTN=s680-w680-h510",
+      "link": "https://www.blackrockcasino.co.za/"
+    },
+    {
+      "name": "Newcastle Mall",
+      "address": "45 Oak Ave, Equarand, Newcastle, 2940, South Africa",
+      "phone": "+27 34 326 1120",
+      "rating": 4.3,
+      "imageURL": "https://lh3.googleusercontent.com/geougc-cs/AIHozJIVLD2HMYjoNGVZcUUtxfjb1ONC-oadlKtRO139FCl67CAciW6aZwEKGZcGjajx1KxB_m04k5CdJlZm3TmyPO8r4NDtVdMZT8RxfT1pfmn1cAhdNg5j4WGsAjCNpG2GFVDnd69h=s2732-w2732-h1282",
+      "link": "https://www.newcastlemall.co.za/"
+    },
+    {
+      "name": "Ncandu Falls",
+      "address": "Ncandu Nature Reserve, Newcastle 2940",
+      "phone": "",
+      "rating": 4.4,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Ncandufalls.JPG/250px-Ncandufalls.JPG",
+      "link": "https://www.sa-venues.com/attractionskzn/ncandu-falls.php"
+    },
+    {
+      "name": "Newcastle Golf Club",
+      "address": "3 Kilbarchan, Newcastle 2940",
+      "phone": "+27 34 318 1026",
+      "rating": 4.2,
+      "imageURL": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB-Ev0wcBp95bLdhtm9tfC94ZVLok098PmX5WzK0pWJ9io1xGwEAEAlVUaqyIkWA7O6l9kWb-jC7nVTR58GjAVsug9BpMYBF3ZCdhAb8xdRLtXtIWjh0DNTj8xsUQ03NdN2y2goj=s680-w680-h510",
+      "link": "https://www.newcastlegolfclub.co.za/"
+    },
+    {
+      "name": "Amajuba Mall",
+      "address": "42 Scott Street, Newcastle 2940",
+      "phone": "+27 34 312 7752",
+      "rating": 3.9,
+      "imageURL": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB9372vTIt7HrlWpBdtEpAOKEyIxj43tHWrzrrBNUvGyhy_kVIWQOymUJr1f4dlnAP7NL-KImPpRztl56MoZ8pZFGNAi_9rxjzYHgTIbPzQoXFkcxMX-VQGM-tja4KsCFizKkA9AvA=s680-w680-h510",
+      "link": "https://newcastillian.com/2022/11/28/offical-opening-of-woolworths-at-amajuba-mall-announced/"
+    },
+    {
+      "name": "Drakensberg Mountains Viewpoint",
+      "address": "Off R34 near Newcastle",
+      "phone": "",
+      "rating": 4.8,
+      "imageURL": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNTM0Njk0MTAvMjVmNjQzMzkxMmZhNjAxNjczZWMzYTQxZDZkMzc1NGQuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==",
+      "link": "https://www.drakensbergexperience.com/"
+    },
+    {
+      "name": "Newcastle Civic Centre",
+      "address": "38 Murchison Street, Newcastle 2940",
+      "phone": "+27 34 328 7737",
+      "rating": 4.1,
+      "imageURL": "https://c8.alamy.com/comp/BH6KDA/civic-centre-newcastle-upon-tyne-BH6KDA.jpg",
+      "link": "https://newcastle.gov.za/"
+    },
+    {
+      "name": "Fort Amiel Museum",
+      "address": "45 Fort Road, Newcastle 2940",
+      "phone": "+27 34 328 7756",
+      "rating": 4.0,
+      "imageURL": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB_ZKBjJmHQEq3AVWoirTSffkvNgwrKYKaF12LNB3cXr1iqrBopkw18Miux4FF0haULLL2EsNXOJqEXuqjEGJ0-cR-ybNJsSJruvMR2WP1BBFIv4GNEpE9K_S6r3xQYI2KLcHxTi=s680-w680-h510",
+      "link": "https://newcastle.gov.za/venues/museum/"
+    },
+    {
+      "name": "Pint and Pigout",
+      "address": "26 Victoria Rd, Pioneer Park, Newcastle, 2940",
+      "phone": "+27 34 315 2468",
+      "rating": 4.4,
+      "imageURL": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB-mPU7rLS-3whD8CX6nz-0-iwjkDh4s7BXYpSXmMCd2zuGl1Og2OW0ncfeUA304HCP-wKPYu1HFEGj7wdvAn6vpQ0QBn2t_yEdud59JrYfjSN-ktaBiirlHk84cwcsVr2Kv-eeH=s680-w680-h510",
+      "link": "https://www.tripadvisor.co.za/Restaurant_Review-g1883603-d10390349-Reviews-Pint_and_Pigout-Newcastle_KwaZulu_Natal.html"
+    },
+    {
+      "name": "Lourie Park",
+      "address": "Newcastle, 2940, South Africa",
+      "phone": "+27 34 312 2304",
+      "rating": 4.5,
+      "imageURL": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB9-Z2TFC_DzeGiSIr7mPNgkP5vsj78FIPwiKrFZ3K29IQiqK53Lm3Vr0GRIYE1VzigatWHRuYikz1WozYiN7qMMERuAE4WZc9ya0CYTjzSmR0LXMfyRHoea_krqVvoYEed9pK6-9w=s680-w680-h510",
+      "link": "https://www.dstv.co.za/metro/"
+    },
+    {
+      "name": "Sasolburg Dam",
+      "address": "Sasolburg, Newcastle, 2940",
+      "phone": "+27 34 318 1010",
+      "rating": 4.6,
+      "imageURL": "https://images.caxton.co.za/wp-content/uploads/sites/119/2022/01/dam-buks-4-520x390.jpg",
+      "link": "https://www.pinterest.com/pin/312539120690986582"
+    },
+    {
+      "name": "Highmoor Nature Reserve",
+      "address": "Off R33, Newcastle 2940",
+      "phone": "+27 34 318 1015",
+      "rating": 4.7,
+      "imageURL": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB9w2Ark2UTjPYsRgd8y-xQzua67FWPK6pka3Pr1jr_P9K5cCp8jEa8Y8iK8GpVzFUIHuLxvj3HLLXhrvEo7OkO-mf9u-3fUMdEQf4_zUjslvdHv_4tYmMoIXFpf18v0Du9FeXos=s680-w680-h510",
+      "link": "https://www.getaway.co.za/Travel/Highmoor-Nature-Reserve"
+    },
+    {
+      "name": "The Royal Hotel",
+      "address": "1 Bell St, Newcastle, 2940",
+      "phone": "+27 34 318 2285",
+      "rating": 4.2,
+      "imageURL": "https://pix8.agoda.net/hotelImages/9697010/-1/a7627e7b92abfe55c73df5075e272ef5.jpg?ce=0&s=1024x",
+      "link": "https://www.royalhotelnewcastle.co.za/"
+    },
+    {
+      "name": "Bayete Restaurant",
+      "address": "1 Kingsway Rd, Newcastle, 2940",
+      "phone": "+27 34 325 9010",
+      "rating": 4.1,
+      "imageURL": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/56/38/93/caption.jpg?w=1000&h=-1&s=1",
+      "link": "https://www.tripadvisor.co.za/Restaurant_Review-g1883603-d6356572-Reviews-Bayete_Restaurant-Newcastle_KwaZulu_Natal.html"
+    },
+    {
+      "name": "Bergville Lookout",
+      "address": "Bergville, 2940, South Africa",
+      "phone": "+27 34 318 1345",
+      "rating": 4.5,
+      "imageURL": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjQ2MTM4MTAvMGI0Mjg2NDc0ZTgyOWNlNmMxMTg4MWYwMTAxMDA5ZjkuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==",
+      "link": "https://www.getaway.co.za/Travel/Bergville-Lookout"
+    }
+  ]
+  
+  
+  
+
+
+
+
+ 
+
+  

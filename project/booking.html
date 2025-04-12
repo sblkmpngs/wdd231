@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Newcastle Tour Guide - Booking Page">
+    <meta name="author" content="Sabelo K. Mpungose">
+    <meta property="og:title" content="Newcastle Tour Guide - Booking Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://sblkmpngs.github.io/wdd231/project/images/Newcastle_Tour_Guide_Logo_Optimized.png">
+    <meta property="og:url" content="https://sblkmpngs.github.io/wdd231/project/booking.html">
+    <meta property="og:description" content="join the wonderful sites in Newcastle">
+    <meta name="twitter:card" content="Discover Newcastle, KwaZulu-Natal">
+    <meta name="twitter:site" content="@seuTwitter">
+    <meta name="twitter:title" content="Discover Newcastle, KwaZulu-Natal">
+    <meta name="twitter:description" content="Newcastle Tour Guide - Booking Page">
+    <meta name="twitter:image" content="https://sblkmpngs.github.io/wdd231/project/images/Newcastle_Tour_Guide_Logo_Optimized.png">
+    <meta name="twitter:url" content="https://sblkmpngs.github.io/wdd231/project/booking.html">
+    <title>Newcastle Tour Guide - Booking Page</title>
+    <link rel="stylesheet" href="styles/booking.css">
+    <link rel="stylesheet" href="styles/project-large.css">
+    <script src="scripts/booking.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Mooli&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="favicon.ico">
+  </head>
+  <body>
+    <header id="header-content">
+        <a id="logo-link" href="index.html">
+            <img class="logo" src="images/Newcastle_Tour_Guide_Logo_Optimized.png" alt="Newcastle Chamber of Commerce">
+        </a>
+            <span id="title">Newcastle Tour Guide</span>
+
+        <div class="ham-button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="tours.html">Tours</a>
+            <a href="booking.html">Bookings</a>
+        </nav>
+    </header>
+    <main>
+        <div class="membership-container">
+
+            <form action="thankyou.html" method="get">
+                <h1>Book A Tour</h1>
+                
+                <label>First Name:
+                    <input type="text" name="first_name" required autocomplete="given-name" placeholder="John" title="Enter your first name">
+                </label>
+    
+                <label>Last Name:
+                    <input type="text" name="last_name" required autocomplete="family-name" placeholder="Doe" title="Enter your last name">
+                </label>
+    
+                <label>Gender:
+                    <select name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label>
+    
+                <label>Email:
+                    <input type="email" name="email" required autocomplete="email" placeholder="example@email.com" title="Enter your email">
+                </label>
+    
+                <label>Mobile Phone:
+                    <input type="tel" name="phone" required autocomplete="tel" placeholder="012-345-6789" title="Enter your mobile phone number">
+                </label>
+    
+                <label>Tour Package:
+                    <select name="tour">
+                        <option value="single">Individual Tour</option>
+                        <option value="couple">Couples Tour</option>
+                        <option value="family">Family Tour</option>
+                    </select>
+                </label>
+    
+                <label>Privacy Level:
+                    <select name="levels">
+                        <option value="non">Regular Tour</option>
+                        <option value="private">Private Tour (VIP)</option>
+                    </select>
+                </label>
+                <input type="hidden" name="timestamp" id="timestamp">
+    
+                <input type="submit" value="Book Tour">
+            </form>
+    
+          
+            <section id="membership-level">
+                <h2>Tour Details</h2>
+                <div class="card">
+                    <h3>Individual Tour</h3>
+                    <button onclick="openModal('individual-dialog')">Learn More</button>
+                </div>
+                <div class="card">
+                    <h3>Couples Tour</h3>
+                    <button onclick="openModal('couples-dialog')">Learn More</button>
+                </div>
+                <div class="card">
+                    <h3>Family Tour</h3>
+                    <button onclick="openModal('family-dialog')">Learn More</button>
+                </div>
+                <div class="card">
+                    <h3>Regular Tour</h3>
+                    <button onclick="openModal('regular-dialog')">Learn More</button>
+                </div>
+                <div class="card">
+                    <h3>Private Tour</h3>
+                    <button onclick="openModal('private-dialog')">Learn More</button>
+                </div>
+            </section>
+            <dialog id="individual-dialog" class="dialog">
+                <div class="dialog-header">
+                    <h3>Individual Tour (ONE Person)</h3>
+                    <button onclick="closeModal('individual-dialog')" title="Close" class="button">X</button>
+                </div>
+                    <h4>Regular Tour</h4>
+                <p>
+                    ✅ Touring Newcastle hotspots<br/>
+                    ✅ Newcastle Culture Exposure.<br/>
+                    ✅ Food and Accommodations.<br/>
+                </p>
+                    <h5>Private Tour (VIP)</h5>
+                <p>
+                    ✅ Regular Tour perks + Privacy.<br/>
+                    ✅ Private Driver + Tour Guide (Private Car).<br/>
+                    ✅ Unrestricted Access To Events and Activities.<br/>
+                    ✅ Assorted Choices of the Finest Restaurants and Accommodations <br/>
+
+                </p>
+            </dialog>
+            
+            <dialog id="couples-dialog" class="dialog">
+                <div class="dialog-header">
+                    <h3>Couples Tour (TWO People)</h3>
+                    <button onclick="closeModal('couples-dialog')" title="Close" class="button">X</button>
+                </div>
+                <h4>Regular Tour</h4>
+                <p>
+                    ✅ Touring Newcastle hotspots<br/>
+                    ✅ Newcastle Culture Exposure.<br/>
+                    ✅ Food and Accommodations.<br/>
+                </p>
+                    <h5>Private Tour (VIP)</h5>
+                <p>
+                    ✅ Regular Tour perks + Privacy.<br/>
+                    ✅ Private Driver + Tour Guide (Private Car).<br/>
+                    ✅ Unrestricted Access To Events and Activities.<br/>
+                    ✅ Assorted Choices of the Finest Restaurants and Accommodations <br/>
+
+                </p>
+            </dialog>
+            
+            <dialog id="family-dialog" class="dialog">
+                <div class="dialog-header">
+                    <h3>Family Tour (FOUR Peoplel)</h3>
+                    <button onclick="closeModal('family-dialog')" title="Close" class="button">X</button>
+                </div>
+                <h4>Regular Tour</h4>
+                <p>
+                    ✅ Touring Newcastle hotspots<br/>
+                    ✅ Newcastle Culture Exposure.<br/>
+                    ✅ Food and Accommodations.<br/>
+                </p>
+                    <h5>Private Tour (VIP)</h5>
+                <p>
+                    ✅ Regular Tour perks + Privacy.<br/>
+                    ✅ Private Driver + Tour Guide (Private Car).<br/>
+                    ✅ Unrestricted Access To Events and Activities.<br/>
+                    ✅ Assorted Choices of the Finest Restaurants and Accommodations <br/>
+
+                </p>
+            </dialog>
+            
+            <dialog id="regular-dialog" class="dialog">
+                <div class="dialog-header">
+                    <h3>Regular Tour</h3>
+                    <button onclick="closeModal('regular-dialog')" title="Close" class="button">X</button>
+                </div>
+                <p>
+                    ✅ Touring Newcastle hotspots<br/>
+                    ✅ Newcastle Culture Exposure.<br/>
+                    ✅ Food and Accommodations.<br/>
+                </p>
+            </dialog>
+            
+            <dialog id="private-dialog" class="dialog">
+                <div class="dialog-header">
+                    <h3>Private Tour (VIP)</h3>
+                    <button onclick="closeModal('private-dialog')" title="Close" class="button">X</button>
+                </div>
+                <p>
+                    ✅ Regular Tour perks + Privacy.<br/>
+                    ✅ Private Driver + Tour Guide (Private Car).<br/>
+                    ✅ Unrestricted Access To Events and Activities.<br/>
+                    ✅ Assorted Choices of the Finest Restaurants and Accommodations <br/>
+                </p>
+            </dialog>
+
+
+
+            
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+          <div class="footer-info">
+            <p>Physical Address: 37 Murchison Street, Newcastle.</p>
+            <p>Postal Address: Private Bag X6621, Newcastle, 2940.</p>
+            <p>Municipality: Newcastle Local Municipality.</p>
+            <p>Location: Within the Amajuba District Municipality, in the KwaZulu-Natal province of South Africa.</p>
+            <p>Telephone Number: 034 328 7600</p>
+            <p>
+                Website: <a href="https://www.newcastle.gov.za" target="_blank" rel="noopener">www.newcastle.gov.za</a>
+              </p>
+              
+              <div class="social">
+                <a href="https://facebook.com" target="_blank" rel="noopener">
+                  <img src="images/facebook.webp" alt="fb icon">
+                </a>
+              
+                <a href="https://twitter.com" target="_blank" rel="noopener">
+                  <img src="images/xlogo.jfif" alt="twitter icon">
+                </a>
+              
+                <a href="https://youtube.com" target="_blank" rel="noopener">
+                  <img src="images/youtube.webp" alt="youtube icon">                                                                                 `
+                </a>
+              </div>
+            </div>
+        </div>
+      
+        <div class="footer-bottom">
+            <p>&copy; <span id="currentyear"></span> Sabelo K. Mpungose - Newcastle, South Africa</p>
+            <p id="lastModified"></p>
+        </div>
+      </footer>
+      
+      
+    
+</body>
+</html>
